@@ -10,18 +10,32 @@ function renderList(data){
         const item = document.createElement("div");
         item.className = "item";
 
-        let labelColor = s.type === "petshop" ? "red" : "green";
-        let labelText = s.type === "petshop" ? "펫샵" : "보호소";
+        const labelColor = s.type === "petshop" ? "red" : "green";
+        const labelText = s.type === "petshop" ? "펫샵" : "보호소";
+
+        // 홈페이지 처리
+        const homepage = s.homepage
+            ? `<a href="${s.homepage}" target="_blank">${s.homepage}</a>`
+            : "-";
+
+        // 펫샵만 사업자등록번호 표시
+        const businessInfo = s.type === "petshop"
+            ? `<div><span class="label">사업자등록번호:</span> ${s.business}</div>`
+            : "";
+
+        // 펫샵만 홈페이지 표시
+        const homepageInfo = s.type === "petshop"
+            ? `<div><span class="label">홈페이지:</span> ${homepage}</div>`
+            : "";
 
         item.innerHTML = `
         <div class="type" style="color:${labelColor}">[${labelText}]</div>
         <div><span class="label">업체 이름:</span> ${s.name}</div>
         <div><span class="label">인스타그램:</span>
         <a href="${s.instagram}" target="_blank">${s.instagram}</a></div>
-        <div><span class="label">홈페이지:</span>
-        <a href="${s.homepage}" target="_blank">${s.homepage}</a></div>
+        ${homepageInfo}
         <div><span class="label">주소:</span> ${s.address}</div>
-        <div><span class="label">사업자등록번호:</span> ${s.business}</div>
+        ${businessInfo}
         `;
 
         list.appendChild(item);
