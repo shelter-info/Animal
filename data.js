@@ -14,7 +14,7 @@ const shelters = [
     instagram: "https://www.instagram.com/dogmaru.shelter/",
     address: "전국 모든 지점",
     "homepage": "https://dmanimal.co.kr/",
-    "business: "3560000-045-2024-0002"
+    "business": "3560000-045-2024-0002"
   },
   {
     "name": "아이조아",
