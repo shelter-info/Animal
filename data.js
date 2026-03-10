@@ -37,6 +37,18 @@ const shelters = [
     "type": "shelter",
     "instagram": "https://instagram.com/soby2017",
     "address": "-"
+  },
+  {
+    "name": "리패밀리",
+    "type": "shelter",
+    "instagram": "https://instagram.com/re_family_rescue",
+    "address": "-"
+  },
+  {
+    "name": "도로시지켜줄개",
+    "type": "shelter",
+    "instagram": "https://instagram.com/dorothyrescue",
+    "address": "-"
   }
 
 ];
