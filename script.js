@@ -17,7 +17,11 @@ function renderList(data){
         const item = document.createElement("div");
         item.className = "item";
 
+        let labelColor = s.type === "petshop" ? "red" : "green";
+        let labelText = s.type === "petshop" ? "펫샵" : "보호소";
+
         item.innerHTML = `
+        <div class="type" style="color:${labelColor}">[${labelText}]</div>
         <div><span class="label">업체 이름:</span> ${s.name}</div>
         <div><span class="label">인스타그램:</span>
         <a href="${s.instagram}" target="_blank">${s.instagram}</a></div>
@@ -40,3 +44,14 @@ document.getElementById("search").addEventListener("input", function(){
 
     renderList(filtered);
 });
+
+function filterType(type){
+
+    if(type === "all"){
+        renderList(shelters);
+        return;
+    }
+
+    const filtered = shelters.filter(s => s.type === type);
+    renderList(filtered);
+}
