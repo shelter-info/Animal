@@ -30,7 +30,7 @@ const shelters = [
     "instagram": "https://instagram.com/safe__paw__",
     "address": "인천광역시 서구 청라 커낼로260번길 27",
     "homepage": "https://safepawcenter.com/",
-    "business": "742-94-01952"
+    "business": "356000-045-2024-0004"
   },
    {
     "name": "안산동물보육원",
