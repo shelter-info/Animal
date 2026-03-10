@@ -10,12 +10,22 @@ const shelters = [
   },
   {
     "name": "강아지고양이입양센터",
+    type: "petshop",
     "instagram": "https://instagram.com/safe__paw__",
     "address": "인천광역시 서구 청라 커낼로260번길 27",
+    "homepage": "https://safepawcenter.com/",
     "business": "742-94-01952"
   },
+   {
+    "name": "안산동물보육원",
+    type: "petshop",
+    "instagram": "https://instagram.com/sa_rang0222",
+    "address": "경기도 안산시 시낭로2길 1 2층",
+    "homepage": "https://www.asanimal.com/",
+    "business": "670-20-01640"
+  },
 
-  // 실제 보호소 예시
+  // 실제 보호소 예시 ---------------------------------------------------------------------------------
  {
     "name": "마이독모먼트",
     "type": "shelter",
