@@ -20,7 +20,7 @@ function renderList(data){
 
         // 펫샵만 사업자등록번호 표시
         const businessInfo = s.type === "petshop"
-            ? `<div><span class="label">사업자등록번호:</span> ${s.business}</div>`
+            ? `<div><span class="label">동물판매업등록번호:</span> ${s.business}</div>`
             : "";
 
         // 펫샵만 홈페이지 표시
