@@ -14,7 +14,7 @@ const shelters = [
     instagram: "https://www.instagram.com/dogmaru.shelter/",
     address: "전국 모든 지점",
     "homepage": "https://dmanimal.co.kr/"
-    "business: "334-13-02196"
+    "business: "3560000-045-2024-0002"
   },
   {
     "name": "아이조아",
@@ -23,6 +23,22 @@ const shelters = [
     "address": "서울시 마포구 독막로28길 10",
     "homepage": "https://www.ijoa.co.kr/",
     "business": "3130000-045-2025-0001"
+  },
+  {
+    "name": "따숨분양센터",
+    type: "petshop",
+    "instagram": "https://instagram.com/ttasum_catdog",
+    "address": "-,
+    "homepage": "-",
+    "business": "554000004820260003"
+  },
+  {
+    "name": "다온입양센터",
+    type: "petshop",
+    "instagram": "https://instagram.com/daon__center",
+    "address": "경기도 남양주시 와부읍 안골로 49-9 3",
+    "homepage": "https://daon-center.com/",
+    "business": "3990000-045-2022-0035"
   },
   {
     "name": "강아지고양이입양센터",
