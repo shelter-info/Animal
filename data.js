@@ -1,23 +1,28 @@
-[
+const shelters = [
+
+  // 보호소 사칭 사례
   {
-    "name": "안다동물보호소",
-    "instagram": "https://www.instagram.com/anda_animals_shelter/",
-    "address": "경기도 평택시 오좌동길 47-48",
-    "business": "000-00-00000"
+    name: "안다동물보호소",
+    type: "petshop",
+    instagram: "https://www.instagram.com/anda_animals_shelter/",
+    address: "경기도 평택시 오좌동길 47-48",
+    business: "000-00-00000"
   },
   {
-    "name": "강아지고양이입양센",
+    "name": "강아지고양이입양센터",
     "instagram": "https://instagram.com/safe__paw__",
     "address": "인천광역시 서구 청라 커낼로260번길 27",
     "business": "742-94-01952"
-  }
-  {
+  },
+
+  // 실제 보호소 예시
+ {
     "name": "마이독모먼트",
     "type": "shelter",
     "instagram": "https://instagram.com/my_dog_moment_2024",
     "address": "충남 공주시",
     "business": "-"
-  }
+  },
   {
     "name": "쏘바이",
     "type": "shelter",
@@ -25,4 +30,5 @@
     "address": "-",
     "business": "-"
   }
-]
+
+];
