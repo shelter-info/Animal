@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
-<title>펫샵 정보 아카이브</title>
+<title>동물 보호소 정보 아카이브</title>
 
 <style>
 
@@ -41,6 +41,22 @@ padding:10px;
 font-size:16px;
 }
 
+.filter{
+margin-top:10px;
+}
+
+.filter button{
+margin-right:10px;
+padding:6px 12px;
+cursor:pointer;
+border:none;
+background:#ddd;
+}
+
+.filter button:hover{
+background:#bbb;
+}
+
 .list{
 background:white;
 padding:20px;
@@ -53,6 +69,10 @@ padding:15px 0;
 border-bottom:1px solid #ddd;
 }
 
+.item:last-child{
+border-bottom:none;
+}
+
 .label{
 font-weight:bold;
 }
@@ -62,13 +82,19 @@ color:#1f3a5f;
 text-decoration:none;
 }
 
+.type{
+font-weight:bold;
+margin-bottom:5px;
+}
+
 </style>
+
 </head>
 
 <body>
 
 <header>
-<h1>동물보호소 정보 아카이브</h1>
+<h1>동물 보호소 정보 아카이브</h1>
 </header>
 
 <div class="notice">
@@ -79,6 +105,12 @@ text-decoration:none;
 
 <div class="search">
 <input type="text" id="search" placeholder="업체 이름 / 주소 검색">
+</div>
+
+<div class="filter">
+<button onclick="filterType('all')">전체</button>
+<button onclick="filterType('petshop')">펫샵</button>
+<button onclick="filterType('shelter')">진짜 보호소</button>
 </div>
 
 <div class="list" id="list"></div>
