@@ -1,11 +1,4 @@
-let shelters = [];
-
-fetch("data.json")
-.then(res => res.json())
-.then(data => {
-    shelters = data;
-    renderList(data);
-});
+renderList(shelters);
 
 function renderList(data){
 
