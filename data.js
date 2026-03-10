@@ -9,6 +9,22 @@ const shelters = [
     business: "000-00-00000"
   },
   {
+    name: "도그마루",
+    type: "petshop",
+    instagram: "https://www.instagram.com/dogmaru.shelter/",
+    address: "전국 모든 지점",
+    "homepage": "https://dmanimal.co.kr/"
+    "business: "334-13-02196"
+  },
+  {
+    "name": "아이조아",
+    type: "petshop",
+    "instagram": "https://instagram.com/ijoahappy",
+    "address": "서울시 마포구 독막로28길 10",
+    "homepage": "https://www.ijoa.co.kr/",
+    "business": "3130000-045-2025-0001"
+  },
+  {
     "name": "강아지고양이입양센터",
     type: "petshop",
     "instagram": "https://instagram.com/safe__paw__",
@@ -49,6 +65,18 @@ const shelters = [
     "type": "shelter",
     "instagram": "https://instagram.com/dorothyrescue",
     "address": "-"
-  }
+  },
+  {
+    "name": "엔젤프로젝트",
+    "type": "shelter",
+    "instagram": "https://instagram.com/angelproject_official",
+    "address": "-"
+  },
+  {
+    "name": "네스트",
+    "type": "shelter",
+    "instagram": "https://instagram.com/nest_animal_2011",
+    "address": "-"
+  },
 
 ];
