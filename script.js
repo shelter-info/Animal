@@ -18,6 +18,8 @@ function renderList(data){
         <div><span class="label">업체 이름:</span> ${s.name}</div>
         <div><span class="label">인스타그램:</span>
         <a href="${s.instagram}" target="_blank">${s.instagram}</a></div>
+        <div><span class="label">홈페이지:</span>
+        <a href="${s.homepage}" target="_blank">${s.homepage}</a></div>
         <div><span class="label">주소:</span> ${s.address}</div>
         <div><span class="label">사업자등록번호:</span> ${s.business}</div>
         `;
