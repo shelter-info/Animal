@@ -30,15 +30,13 @@ const shelters = [
     "name": "마이독모먼트",
     "type": "shelter",
     "instagram": "https://instagram.com/my_dog_moment_2024",
-    "address": "충남 공주시",
-    "business": "-"
+    "address": "충남 공주시"
   },
   {
     "name": "쏘바이",
     "type": "shelter",
     "instagram": "https://instagram.com/soby2017",
-    "address": "-",
-    "business": "-"
+    "address": "-"
   }
 
 ];
