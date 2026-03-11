@@ -6,7 +6,7 @@ const shelters = [
     type: "petshop",
     instagram: "https://www.instagram.com/anda_animals_shelter/",
     address: "경기도 평택시 오좌동길 47-48",
-    business: "391000004520220030"
+    business: "3910000-045-2022-0030"
   },
   {
     name: "도그마루",
@@ -30,7 +30,7 @@ const shelters = [
     instagram: "https://instagram.com/ttasum_catdog",
     address: "-",
     homepage: "-",
-    business: "554000004820260003"
+    business: "5540000-048-2026-0003"
   },
   {
     name: "다온입양센터",
@@ -54,7 +54,7 @@ const shelters = [
     instagram: "https://instagram.com/sa_rang0222",
     address: "경기도 안산시 시낭로2길 1 2층",
     homepage: "https://www.asanimal.com/",
-    business: "393000004520230002"
+    business: "3930000-045-2023-0002"
   },
   {
     name: "동물보육원 김포지부",
@@ -62,7 +62,7 @@ const shelters = [
     instagram: "https://instagram.com/shelter_of_animal",
     address: "경기 김포시 양촌읍 김포대로 1690-30",
     homepage: "https://www.asanimal.com/",
-    business: "409000004520230004"
+    business: "4090000-045-2023-0004"
   },
   {
     name: "애니멀코퍼레이션",
@@ -70,7 +70,7 @@ const shelters = [
     instagram: "https://instagram.com/animalcorpcom",
     address: "광주광역시 동구 준법로 12 (지산동, 옥선빌딩) (사업자등록기준), 대구광역시 달서구 송현동길 25 2층 201호 (공식홈페이지기준_대구본부), 경기 성남시 중원구 자혜로 10 (동물판매업신고기준_성남본부",
     homepage: "https://www.kanimal.org/",
-    business: "378000004520190032"
+    business: "3780000-045-2019-0032"
   },
 
   // 실제 보호소 --------------------------------------------------------------------------------------------------------------------------
