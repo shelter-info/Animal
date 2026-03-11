@@ -47,17 +47,18 @@ function renderList(data){
     });
 }
 
+
 document.getElementById("search").addEventListener("input", function(){
 
     const keyword = this.value.toLowerCase();
 
     const filtered = shelters.filter(s =>
-        s.name.toLowerCase().includes(keyword) ||
-        s.address.toLowerCase().includes(keyword)
+        (s.name || "").toLowerCase().includes(keyword)
     );
 
     renderList(filtered);
 });
+
 
 function filterType(type){
 
