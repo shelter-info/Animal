@@ -28,13 +28,18 @@ function renderList(data){
             ? `<div><span class="label">홈페이지:</span> ${homepage}</div>`
             : "";
 
+        // 펫샵만 주소 표시
+        const addressInfo = s.type === "petshop"
+            ? `<div><span class="label">주소:</span> ${s.address}</div>`
+            : "";
+
         item.innerHTML = `
         <div class="type" style="color:${labelColor}">[${labelText}]</div>
         <div><span class="label">업체 이름:</span> ${s.name}</div>
         <div><span class="label">인스타그램:</span>
         <a href="${s.instagram}" target="_blank">${s.instagram}</a></div>
         ${homepageInfo}
-        <div><span class="label">주소:</span> ${s.address}</div>
+        ${addressInfo}
         ${businessInfo}
         `;
 
