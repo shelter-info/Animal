@@ -6,7 +6,7 @@ const shelters = [
     type: "petshop",
     instagram: "https://www.instagram.com/anda_animals_shelter/",
     address: "경기도 평택시 오좌동길 47-48",
-    business: "000-00-00000"
+    business: "391000004520220030"
   },
   {
     name: "도그마루",
