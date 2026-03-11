@@ -77,38 +77,307 @@ const shelters = [
   {
     name: "마이독모먼트",
     type: "shelter",
-    instagram: "https://instagram.com/my_dog_moment_2024",
-    address: "충남 공주시"
+    instagram: "https://instagram.com/my_dog_moment_2024"
   },
   {
     name: "쏘바이",
     type: "shelter",
-    instagram: "https://instagram.com/soby2017",
-    address: "-"
+    instagram: "https://instagram.com/soby2017"
   },
   {
     name: "리패밀리",
     type: "shelter",
-    instagram: "https://instagram.com/re_family_rescue",
-    address: "-"
+    instagram: "https://instagram.com/re_family_rescue"
   },
   {
     name: "도로시지켜줄개",
     type: "shelter",
-    instagram: "https://instagram.com/dorothyrescue",
-    address: "-"
+    instagram: "https://instagram.com/dorothyrescue"
+  },
+   {
+    name: "동물권단체 케어",
+    type: "shelter",
+    instagram: "https://instagram.com/care_korea_official"
   },
   {
-    name: "엔젤프로젝트",
+    name: "빅독포레스트",
     type: "shelter",
-    instagram: "https://instagram.com/angelproject_official",
-    address: "-"
+    instagram: "https://instagram.com/bigdogforest"
   },
   {
-    name: "네스트",
+    name: "빅독포레스트입양임보",
     type: "shelter",
-    instagram: "https://instagram.com/nest_animal_2011",
-    address: "-"
+    instagram: "https://instagram.com/bigdogforest_adopt"
+  },
+  {
+    name: "핌피바이러스",
+    type: "shelter",
+    instagram: "https://instagram.com/pimfyvirus"
+  },
+  {
+    name: "너와함개냥",
+    type: "shelter",
+    instagram: "https://instagram.com/neowahamgaenyang"
+  },
+  {
+    name: "상주시동물보호센터",
+    type: "shelter",
+    instagram: "https://instagram.com/sangju_dogs"
+  },
+  {
+    name: "발라당입양센터",
+    type: "shelter",
+    instagram: "https://instagram.com/balra_dang"
+  },
+  {
+    name: "애니멀스토리",
+    type: "shelter",
+    instagram: "https://instagram.com/k_animalstory"
+  },
+  {
+    name: "함안길천사",
+    type: "shelter",
+    instagram: "https://instagram.com/haman_angels"
+  },
+  {
+    name: "함안길천사구조견소식",
+    type: "shelter",
+    instagram: "https://instagram.com/haman_friends"
+  },
+  {
+    name: "유사천",
+    type: "shelter",
+    instagram: "https://instagram.com/1004_adopt"
+  },
+  {
+    name: "티비티레스큐",
+    type: "shelter",
+    instagram: "https://instagram.com/tbt_rescue"
+  },
+  {
+    name: "이수민",
+    type: "shelter",
+    instagram: "https://instagram.com/isumin289"
+  },
+  {
+    name: "비글구조네트워크 보은쉼터",
+    type: "shelter",
+    instagram: "https://instagram.com/brn_boeun"
+  },
+  {
+    name: "코코쉼터",
+    type: "shelter",
+    instagram: "https://instagram.com/coco_201002"
+  },
+  {
+    name: "동물과함께행복한세상",
+    type: "shelter",
+    instagram: "https://instagram.com/donghaeng_ngo"
+  },
+  {
+    name: "사단법인엘씨케이디",
+    type: "shelter",
+    instagram: "https://instagram.com/helpshelter"
+  },
+  {
+    name: "서울시립동물복지지원센터",
+    type: "shelter",
+    instagram: "https://instagram.com/saccddm1106"
+  },
+  {
+    name: "왕왕랜드",
+    type: "shelter",
+    instagram: "https://instagram.com/wangwangland_"
+  },
+  {
+    name: "포인핸드",
+    type: "shelter",
+    instagram: "https://instagram.com/pawinhand_official"
+  },
+  {
+    name: "강릉보호소",
+    type: "shelter",
+    instagram: "https://instagram.com/gn_adoption_center"
+  },
+  {
+    name: "노바이독코리아",
+    type: "shelter",
+    instagram: "https://instagram.com/nobuydog_korea"
+  },
+  {
+    name: "유엄빠",
+    type: "shelter",
+    instagram: "https://instagram.com/youumbba"
+  },
+  {
+    name: "유행사",
+    type: "shelter",
+    instagram: "https://instagram.com/yuhengsa"
+  },
+  {
+    name: "좋은사람",
+    type: "shelter",
+    instagram: "https://instagram.com/with_all_animals"
+  },
+  {
+    name: "루루네임시보호",
+    type: "shelter",
+    instagram: "https://instagram.com/foster_withlulu"
+  },
+  {
+    name: "생명권_허그안클럽",
+    type: "shelter",
+    instagram: "https://instagram.com/hugahn_club"
+  },
+  {
+    name: "인천시보호소유기동물입양홍보",
+    type: "shelter",
+    instagram: "https://instagram.com/pawme_animals"
+  },
+  {
+    name: "짜장이네·임시보호이야기",
+    type: "shelter",
+    instagram: "https://instagram.com/jin_zzazang"
+  },
+  {
+    name: "우산이되어줄개",
+    type: "shelter",
+    instagram: "https://instagram.com/pup_umbrella"
+  },
+  {
+    name: "사단법인더가치할개",
+    type: "shelter",
+    instagram: "https://instagram.com/beagle_1110"
+  },
+  {
+    name: "괜찮아댕댕냥",
+    type: "shelter",
+    instagram: "https://instagram.com/itsokay_daengnyang"
+  },
+  {
+    name: "논산시동물보호센터",
+    type: "shelter",
+    instagram: "https://instagram.com/nonsan__animal_shelter"
+  },
+  {
+    name: "대구한나네보호소",
+    type: "shelter",
+    instagram: "https://instagram.com/for__hannah"
+  },
+  {
+    name: "아크보호소",
+    type: "shelter",
+    instagram: "https://instagram.com/ark_animalrightskorea"
+  },
+  {
+    name: "사단법인엔젤프로젝트",
+    type: "shelter",
+    instagram: "https://instagram.com/angleproject_official"
+  },
+  {
+    name: "행동하는동물사랑",
+    type: "shelter",
+    instagram: "https://instagram.com/hds_adopt"
+  },
+  {
+    name: "어독스",
+    type: "shelter",
+    instagram: "https://instagram.com/_adogs_"
+  },
+  {
+    name: "사단법인리본",
+    type: "shelter",
+    instagram: "https://instagram.com/team_reborn5004"
+  },
+  {
+    name: "별빛유기동물지킴이",
+    type: "shelter",
+    instagram: "https://instagram.com/wanju_star"
+  },
+  {
+    name: "영자네보호소",
+    type: "shelter",
+    instagram: "https://instagram.com/youngja_dogs"
+  },
+  {
+    name: "대구민블리",
+    type: "shelter",
+    instagram: "https://instagram.com/deagu_minblli"
+  },
+  {
+    name: "제주행복이네",
+    type: "shelter",
+    instagram: "https://instagram.com/jeju_happyshelter"
+  },
+  {
+    name: "동물보호단체포에버",
+    type: "shelter",
+    instagram: "https://instagram.com/pawever2013"
+  },
+  {
+    name: "동물구조단체사단법인위액트",
+    type: "shelter",
+    instagram: "https://instagram.com/we.a.c.t"
+  },
+  {
+    name: "산수유독",
+    type: "shelter",
+    instagram: "https://instagram.com/sansuyu_dog"
+  },
+  {
+    name: "하늬동산",
+    type: "shelter",
+    instagram: "https://instagram.com/adopt.doggies"
+  },
+  {
+    name: "애니멀디펜더",
+    type: "shelter",
+    instagram: "https://instagram.com/animal_defender_official"
+  },
+  {
+    name: "행복한유기견세상",
+    type: "shelter",
+    instagram: "https://instagram.com/inca_happydog"
+  },
+  {
+    name: "부산하얀비둘기보호소",
+    type: "shelter",
+    instagram: "https://instagram.com/busan_white_peace"
+  },
+  {
+    name: "별빛쉼표",
+    type: "shelter",
+    instagram: "https://instagram.com/lana_dogtrainer_seoul"
+  },
+  {
+    name: "천사들의하우스",
+    type: "shelter",
+    instagram: "https://instagram.com/jeongjaesug67"
+  },
+  {
+    name: "동물자유연대",
+    type: "shelter",
+    instagram: "https://instagram.com/kawa.hp"
+  },
+  {
+    name: "동물권행동카라",
+    type: "shelter",
+    instagram: "https://instagram.com/animal_kara"
+  },
+  {
+    name: "노네임쉘터",
+    type: "shelter",
+    instagram: "https://instagram.com/noname.shelter"
+  },
+  {
+    name: "사천시유기동물보호소",
+    type: "shelter",
+    instagram: "https://instagram.com/4000animal"
+  },
+  {
+    name: "동물보호단체위허그",
+    type: "shelter",
+    instagram: "https://instagram.com/we.hug_2022"
   }
 
 ];
