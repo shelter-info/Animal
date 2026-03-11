@@ -179,11 +179,6 @@ const shelters = [
     instagram: "https://instagram.com/bigdogforest"
   },
   {
-    name: "빅독포레스트입양임보",
-    type: "shelter",
-    instagram: "https://instagram.com/bigdogforest_adopt"
-  },
-  {
     name: "핌피바이러스",
     type: "shelter",
     instagram: "https://instagram.com/pimfyvirus"
@@ -214,11 +209,6 @@ const shelters = [
     instagram: "https://instagram.com/haman_angels"
   },
   {
-    name: "함안길천사구조견소식",
-    type: "shelter",
-    instagram: "https://instagram.com/haman_friends"
-  },
-  {
     name: "유사천",
     type: "shelter",
     instagram: "https://instagram.com/1004_adopt"
@@ -232,6 +222,11 @@ const shelters = [
     name: "이수민",
     type: "shelter",
     instagram: "https://instagram.com/isumin289"
+  },
+  {
+    name: "보리야사랑해",
+    type: "shelter",
+    instagram: "https://instagram.com/lovebory"
   },
   {
     name: "비글구조네트워크 보은쉼터",
