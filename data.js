@@ -6,7 +6,16 @@ const shelters = [
     type: "petshop",
     instagram: "https://www.instagram.com/anda_animals_shelter/",
     address: "경기도 평택시 오좌동길 47-48",
+    homepage: "-",
     business: "3910000-045-2022-0030"
+  },
+  {
+    name: "한국동물보호소협회",
+    type: "petshop",
+    instagram: "https://www.instagram.com/petshelter_kas/",
+    address: "서울특별시 강남구 청담동 93-10번지, 경기도 김포시 사우동 407-12번지, 서울특별시 강남구 도산대로89길 19-14번지3,4층",
+    homepage: "https://www.petkas.co.kr/",
+    business: "3220000-037-2018-0038"
   },
   {
     name: "도그마루",
@@ -72,6 +81,71 @@ const shelters = [
     homepage: "https://www.kanimal.org/",
     business: "3780000-045-2019-0032"
   },
+  {
+    name: "온기동물보호센터",
+    type: "petshop",
+    instagram: "https://instagram.com/animal__center_0",
+    address: "경기 구리시 검배로",
+    homepage: "-",
+    business: "-"
+  },
+  {
+    name: "네코스토리",
+    type: "petshop",
+    instagram: "https://instagram.com/neco.story",
+    address: "서울특별시 강동구 양재대로 102가길 50, 2층",
+    homepage: "https://www.necostory.com/",
+    business: "3240000-045-2024-0002"
+  },
+  {
+    name: "오독",
+    type: "petshop",
+    instagram: "https://instagram.com/oh_dog_gold",
+    address: "광주광역시 광산구 우산동 1035-8번지 1",
+    homepage: "https://oh-dog.co.kr/",
+    business: "3630000-048-2023-0003"
+  },
+  {
+    name: "컴투펫케어",
+    type: "petshop",
+    instagram: "-",
+    address: "서울 광진구 자양로 54, 인천광역시 부평구 갈산동 53-9, 수원시 팔달구 화서동 58-2, 강원도 원주시 행구로 455",
+    homepage: "https://www.com2petcare.com/",
+    business: "서울 10548호"
+  },
+  {
+    name: "동행애견돌봄센터",
+    type: "petshop",
+    instagram: "https://www.instagram.com/_dong.haeng",
+    address: "경기도 하남시",
+    homepage: "-",
+    business: "684-15-02466"
+  },
+  {
+    name: "서리펫",
+    type: "petshop",
+    instagram: "-",
+    address: "서울특별시 서초구 신반포로43길 23-4, 1층",
+    homepage: "https://seoripet.co.kr/",
+    business: "582-05-03353"
+  },
+  {
+    name: "블리독",
+    type: "petshop",
+    instagram: "https://www.instagram.com/velydog/",
+    address: "서울시 강북구 도봉로 388 테마 빌딩 1층",
+    homepage: "https://vely-dog.com/",
+    business: "3080000-037-2019-0010"
+  },
+  {
+    name: "하이바이",
+    type: "petshop",
+    instagram: "https://www.instagram.com/hibye_shelter_official",
+    address: "서울 광진구 자양로 180 1층, 경기 수원시 권선구 하탑로 5 1층, 대구 중구 동성로3길 89 3층 101호, 부산 남구 황령대로492번길 34 2층",
+    homepage: "https://hibyeshelter.com//",
+    business: "206-27-94670"
+  },
+
 
   // 실제 보호소 --------------------------------------------------------------------------------------------------------------------------
   {
