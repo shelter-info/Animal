@@ -26,6 +26,14 @@ const shelters = [
     business: "3560000-045-2024-0002"
   },
   {
+    name: "다온입양센터",
+    type: "petshop",
+    instagram: "https://instagram.com/daon__center",
+    address: "경기도 남양주시 와부읍 안골로 49-9 3",
+    homepage: "https://daon-center.com/",
+    business: "3990000-045-2022-0035"
+  },
+  {
     name: "아이조아",
     type: "petshop",
     instagram: "https://instagram.com/ijoahappy",
@@ -41,14 +49,7 @@ const shelters = [
     homepage: "-",
     business: "5540000-048-2026-0003"
   },
-  {
-    name: "다온입양센터",
-    type: "petshop",
-    instagram: "https://instagram.com/daon__center",
-    address: "경기도 남양주시 와부읍 안골로 49-9 3",
-    homepage: "https://daon-center.com/",
-    business: "3990000-045-2022-0035"
-  },
+  
   {
     name: "강아지고양이입양센터",
     type: "petshop",
@@ -144,6 +145,22 @@ const shelters = [
     address: "서울 광진구 자양로 180 1층, 경기 수원시 권선구 하탑로 5 1층, 대구 중구 동성로3길 89 3층 101호, 부산 남구 황령대로492번길 34 2층",
     homepage: "https://hibyeshelter.com//",
     business: "206-27-94670"
+  },
+  {
+    name: "넥스트펫",
+    type: "petshop",
+    instagram: "https://www.instagram.com/petnext_",
+    address: "-",
+    homepage: "-",
+    business: "-"
+  },
+  {
+    name: "품센터",
+    type: "petshop",
+    instagram: "https://instagram.com/poom_center",
+    address: "인천 서구 청라한내로 72번길 17 2층 201~219호",
+    homepage: "-",
+    business: "-"
   },
 
 
