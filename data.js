@@ -88,7 +88,7 @@ const shelters = [
     instagram: "https://instagram.com/animal__center_0",
     address: "경기 구리시 검배로",
     homepage: "-",
-    business: "-"
+    business: "3980000-045-2024-0002"
   },
   {
     name: "네코스토리",
@@ -112,7 +112,7 @@ const shelters = [
     instagram: "-",
     address: "서울 광진구 자양로 54, 인천광역시 부평구 갈산동 53-9, 수원시 팔달구 화서동 58-2, 강원도 원주시 행구로 455",
     homepage: "https://www.com2petcare.com/",
-    business: "서울 10548호"
+    business: "3040000-045-2015-0002"
   },
   {
     name: "동행애견돌봄센터",
@@ -128,7 +128,7 @@ const shelters = [
     instagram: "-",
     address: "서울특별시 서초구 신반포로43길 23-4, 1층",
     homepage: "https://seoripet.co.kr/",
-    business: "582-05-03353"
+    business: "3210000-045-2025-0001"
   },
   {
     name: "블리독",
@@ -144,7 +144,7 @@ const shelters = [
     instagram: "https://www.instagram.com/hibye_shelter_official",
     address: "서울 광진구 자양로 180 1층, 경기 수원시 권선구 하탑로 5 1층, 대구 중구 동성로3길 89 3층 101호, 부산 남구 황령대로492번길 34 2층",
     homepage: "https://hibyeshelter.com//",
-    business: "206-27-94670"
+    business: "3040000-045-2014-0004"
   },
   {
     name: "넥스트펫",
@@ -241,11 +241,6 @@ const shelters = [
     instagram: "https://instagram.com/isumin289"
   },
   {
-    name: "보리야사랑해",
-    type: "shelter",
-    instagram: "https://instagram.com/lovebory"
-  },
-  {
     name: "비글구조네트워크 보은쉼터",
     type: "shelter",
     instagram: "https://instagram.com/brn_boeun"
@@ -304,6 +299,11 @@ const shelters = [
     name: "좋은사람",
     type: "shelter",
     instagram: "https://instagram.com/with_all_animals"
+  },
+    {
+    name: "보리야사랑해",
+    type: "shelter",
+    instagram: "https://instagram.com/lovebory"
   },
   {
     name: "루루네임시보호",
