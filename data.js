@@ -300,11 +300,6 @@ const shelters = [
     type: "shelter",
     instagram: "https://instagram.com/with_all_animals"
   },
-    {
-    name: "보리야사랑해",
-    type: "shelter",
-    instagram: "https://instagram.com/lovebory"
-  },
   {
     name: "루루네임시보호",
     type: "shelter",
